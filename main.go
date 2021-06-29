@@ -44,7 +44,7 @@ import (
 	"github.com/upmc-enterprises/registry-creds/k8sutil"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	v1 "k8s.io/client-go/pkg/api/v1"
+	v1 "k8s.io/api/core/v1"
 )
 
 const (
