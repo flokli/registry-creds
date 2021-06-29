@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -14,7 +15,6 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/upmc-enterprises/registry-creds/k8sutil"
-	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	coreType "k8s.io/client-go/kubernetes/typed/core/v1"
 	v1fake "k8s.io/client-go/kubernetes/typed/core/v1/fake"
