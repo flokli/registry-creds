@@ -33,12 +33,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecr"
 	"github.com/cenkalti/backoff"
+	"github.com/sirupsen/logrus"
 	flag "github.com/spf13/pflag"
 	"github.com/upmc-enterprises/registry-creds/k8sutil"
 	"golang.org/x/net/context"
